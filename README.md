@@ -1,3 +1,3 @@
-#Personal Website - Aryo Garakani
+# Personal Website - Aryo Garakani
 
 Created by Kian Javaheri (@kianjavaheri)
