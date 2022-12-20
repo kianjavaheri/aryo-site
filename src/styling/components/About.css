@@ -1,0 +1,21 @@
+#about {
+    padding: 1rem 5rem 1rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#writing-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#writing-section h3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}

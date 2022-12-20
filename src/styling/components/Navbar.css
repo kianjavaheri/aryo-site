@@ -1,0 +1,42 @@
+#navbar {
+    background-color: #a1d4ed;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+#navbar h2 {
+    margin-left: 3rem;
+}
+
+.name {
+    color: white;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.link {
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#sep {
+    background-color: rgb(231, 231, 231);
+    height: 50px;
+    width: 2px;
+}
