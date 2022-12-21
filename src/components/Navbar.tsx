@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import './../styling/components/Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 function Navbar() {
-
-  const [open, setOpen] = useState(false);
 
   return (
     <div id="navbar"> 
@@ -18,7 +16,7 @@ function Navbar() {
         
         <ul>
           <li><Link to="/" className="link">Home</Link></li>
-          <li><Link to="/programs" className="link">University Programs</Link></li>
+          <li><Link to="/programs" className="link">Programs</Link></li>
 
           <li id="activities-dropdown">
               <button className="link">Activities</button>
