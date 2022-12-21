@@ -1,0 +1,19 @@
+#resume-wrapper {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resume-wrapper > a {
+    padding: 1rem;
+    background-color: var(--beige);
+    color: white;
+    border-radius: 2px;
+    transition: 0.2s all cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#resume-wrapper > a:hover {
+    filter: brightness(1.1);
+}

@@ -1,5 +1,5 @@
 #navbar {
-    background-color: #a1d4ed;
+    background-color: var(--beige);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@
 }
 
 .dropdown .link {
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 #sep {

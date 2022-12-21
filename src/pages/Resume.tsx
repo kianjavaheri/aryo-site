@@ -1,8 +1,10 @@
 import React from 'react'
+import ResumeHandler from '../components/ResumeHandler'
 
 function Resume() {
   return (
-    <div>Resume</div>
+    <div><ResumeHandler /></div>
+    
   )
 }
 

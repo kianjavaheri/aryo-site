@@ -1,0 +1,28 @@
+#work-about {
+    padding: 1rem 5rem 1rem 5rem;
+}
+
+#work-about > #writing-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 80%;
+    margin: auto
+}
+
+#work-about > #writing-section > .info > h3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+#work-about > #writing-section > .info > h4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 1rem;
+    color: rgb(60, 60, 60);
+}

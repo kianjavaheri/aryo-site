@@ -1,17 +1,16 @@
-#about {
+#programs-about {
     padding: 1rem 5rem 1rem 5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
 }
 
-#writing-section {
+#programs-about > #writing-section {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    width: 80%;
+    margin: auto
 }
 
-#writing-section h3 {
+#programs-about > #writing-section > .info > h3 {
     display: flex;
     justify-content: center;
     background-color: rgb(239, 239, 239);
