@@ -30,7 +30,7 @@
     border-radius: 5px;
     color: white;
     cursor: pointer;
-    font-size: 1.5ch;
+    font-size: medium;
 }
 
 .link:hover {
@@ -40,7 +40,10 @@
 #activities-dropdown {
     position: relative;
     display: inline-block;
-    font-size: 1.5ch;
+}
+
+#activities-dropdown > button {
+    font-size: medium;
 }
 
 .dropdown-content {
