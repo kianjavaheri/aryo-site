@@ -18,3 +18,9 @@
     border-radius: 5px;
     margin-bottom: 1rem;
 }
+
+#projects-about > #writing-section > .info > h4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

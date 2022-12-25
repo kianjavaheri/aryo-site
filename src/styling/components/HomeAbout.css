@@ -18,3 +18,15 @@
     border-radius: 5px;
     margin-bottom: 1rem;
 }
+
+#home-about > #image-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#home-about > #image-section > img{
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+}

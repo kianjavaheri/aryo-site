@@ -18,3 +18,36 @@
     border-radius: 5px;
     margin-bottom: 1rem;
 }
+
+/* #hobbies-about > #writing-section > .info > img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+} */
+
+
+#lacrosse {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("./../../util/imgs/lacrosse.jpg");
+    border-radius: 2px;
+    position: relative;
+    height: 100vh;
+} 
+
+
+#lacrosse > p {
+    color: white;
+    padding: 1rem;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+}
+
+#lacrosse:hover p {
+    opacity: 0;
+}
+
+#lacrosse:hover {
+    background: url("./../../util/imgs/lacrosse.jpg");
+}
+

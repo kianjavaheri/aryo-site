@@ -33,3 +33,10 @@ body {
 a:visited {
   color: inherit;
 }
+
+.divider {
+  border-top: 2px solid #bbb;
+  margin: auto;
+  width: 90%;
+  border-radius: 15px;
+}

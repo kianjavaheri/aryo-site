@@ -1,5 +1,6 @@
 import React from 'react';
 import './../styling/components/HomeAbout.css';
+import aryo from './../util/imgs/aryo.jpg'
 
 function HomeAbout() {
   return (
@@ -13,6 +14,7 @@ function HomeAbout() {
 
             <Info className="info" title="Hobbies" text="In the end portion of my website, I will include information on my hobbies and activities in my free time as a senior in high school. These interests provide a sense of balance and enjoyment in my life. I would also like to take this opportunity to thank the reader for taking the time to view my site. I hope that you have found the information and content to be informative and interesting."/>
         </div>
+        <div id="image-section"><img src={aryo} alt="aryo-portrait"/></div>
         <div id="image-section"></div>
     </div>
   )
