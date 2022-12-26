@@ -9,22 +9,21 @@ function Navbar() {
   return (
     <div id="navbar"> 
         <h2>
-          <Link to={"/"} className="name">
-            Aryo Garakani
-          </Link>
+          <Link to={"/"} className="name">Aryo Garakani</Link>
         </h2>
         
         <ul>
-          <li><Link to="/" className="link">Home</Link></li>
+          <li className="link"><Link className="linkt" to="/">Home</Link></li>
           <li><Link to="/programs" className="link">Programs</Link></li>
 
-          <li id="activities-dropdown">
-              <button className="link">Activities</button>
+          <li id="activities-dropdown" className="link">
+              {/* <div className="link">Activities</div> */}
+              activities
               <div className="dropdown-content">
-                <div className="dropdown-item"><Link className="dd-link" to="/clubs">Clubs & Competitions</Link></div>
-                <div className="dropdown-item"><Link className="dd-link"to="/work">Internships & Work Experience</Link></div>
-                <div className="dropdown-item"><Link className="dd-link"to="/projects">Passion Project</Link></div>
-                <div className="dropdown-item"><Link className="dd-link"to="/volunteering">Volunteering & Leadership</Link></div>
+                <Link className="dropdown-item" to="/clubs">Clubs & Comp.</Link>
+                <Link className="dropdown-item"to="/work">Work & Intern</Link>
+                <Link className="dropdown-item"to="/projects">Passion Project</Link>
+                <Link className="dropdown-item"to="/volunteering">Volunteer</Link>
               </div>
           </li>
 
