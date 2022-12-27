@@ -67,6 +67,8 @@ function ClubsAbout() {
                 </div>
             </div>
 
+            <hr className="divider"/>
+
             <div className="info">
             <h3>Middle Eastern Club</h3>
                 <div className="grid mec-grid">
