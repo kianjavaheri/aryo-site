@@ -58,7 +58,8 @@ function ProgramsAbout() {
               <h3>Grade: A</h3>
               <p>
                 In this four-course learning experience, I explored the concept of decentralized finance (DeFi), which is a new technology that allows users to interact directly with algorithms or smart contracts rather than through traditional financial intermediaries like banks or insurance companies. DeFi has the potential to revolutionize finance as we know it by addressing issues such as lack of inclusion, inefficiency, centralized control, and lack of interoperability in traditional finance. 
-                <br />
+                <br/>
+                <br/>
                 The first course, DeFi Infrastructure, focused on the history of DeFi and the problems that it aims to solve. The second course, DeFi Primitives, covered the mechanics, supply and ownership, and loans and swaps in DeFi. The third course, DeFi Deep Dive, examined leading DeFi protocols such as MakerDAO, Compound, Aave, Uniswap, and dYdX. The fourth and final course, DeFi Risks and Opportunities, analyzed key risks associated with DeFi, including smart contract risk, governance risk, and scaling, as well as regulatory issues. This course also looked at the potential impact of DeFi on the future of finance, including which organizations and industries may emerge as winners or losers. Overall, this learning experience aimed to provide a comprehensive understanding of DeFi and its potential to shape the future of finance.
               </p>
             </div>

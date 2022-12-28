@@ -18,3 +18,61 @@
     border-radius: 5px;
     margin-bottom: 1rem;
 }
+
+#volunteer-about .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+#volunteer-about .image-container {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#volunteer-about .image-container > img {
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+
+#volunteer-about .image-container > p {
+    text-align: center;
+    color: gray;
+    font-size: small;
+    line-height: 1.5;
+}
+
+#volunteer-about .text-container {
+    grid-column: 2;
+}
+
+#volunteer-about .text-container > h3 {
+    text-align: center;
+}
+
+#volunteer-about .text-container > p {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#volunteer-about .acs-image-container {
+    grid-column: 2;
+}
+
+#volunteer-about .acs-text-container {
+    grid-column: 1;
+}
+
+#volunteer-about .red-image-container {
+    grid-column: 2;
+}
+
+#volunteer-about .red-text-container {
+    grid-column: 1;
+}

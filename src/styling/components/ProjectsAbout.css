@@ -19,8 +19,48 @@
     margin-bottom: 1rem;
 }
 
-#projects-about > #writing-section > .info > h4 {
-    width: 100%;
+#projects-about .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+#projects-about .image-container {
+    grid-column: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+#projects-about .image-container > img {
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+
+#projects-about .image-container > p {
+    text-align: center;
+    color: gray;
+    font-size: small;
+    line-height: 1.5;
+}
+
+#projects-about .text-container {
+    grid-column: 2;
+}
+
+#projects-about .text-container > h3 {
+    text-align: center;
+}
+
+#projects-about .text-container > p {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#projects-about .fingrad-b-grid {
+    grid-template-columns: 1fr;
 }

@@ -29,9 +29,7 @@
 }
 
 #programs-about .laspo-grid {
-    display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 4rem;
 }
 
 #programs-about .image-container {
@@ -59,7 +57,7 @@
 }
 
 #programs-about .text-container > h3 {
-text-align: center;
+    text-align: center;
 }
 
 #programs-about .text-container > p {

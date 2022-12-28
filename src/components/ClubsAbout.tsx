@@ -74,6 +74,7 @@ function ClubsAbout() {
                 <div className="grid mec-grid">
                     <div className="image-container mec-image-container">
                         <img src={middle_east} alt="Middle East Map" />
+                        <p>Places of study within Middle Eastern Club.</p>
                     </div>
                     <div className="text-container mec-text-container">
                         <p>

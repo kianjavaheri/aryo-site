@@ -19,10 +19,67 @@
     margin-bottom: 0.5rem;
 }
 
-#work-about > #writing-section > .info > h4 {
+#work-about .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+#work-about .tirgan-grid {
+    grid-template-columns: 1fr 2fr;
+}
+
+#work-about .aaa-grid {
+    grid-template-columns: 1fr;
+}
+
+#work-about .image-container {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#work-about .image-container > img {
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+
+#work-about .image-container > p {
+    text-align: center;
+    color: gray;
+    font-size: small;
+    line-height: 1.5;
+}
+
+#work-about .text-container {
+    grid-column: 2;
+}
+
+#work-about .text-container > h3 {
+    text-align: center;
+}
+
+#work-about .text-container > a {
     display: flex;
     justify-content: center;
-    width: 100%;
-    padding-bottom: 1rem;
-    color: rgb(60, 60, 60);
+    font-weight: bold;
+    color: blue;
+}
+
+#work-about .text-container > p {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#work-about .walmart-image-container {
+    grid-column: 2;
+}
+
+#work-about .walmart-text-container {
+    grid-column: 1;
 }
