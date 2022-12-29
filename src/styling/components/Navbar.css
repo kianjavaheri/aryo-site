@@ -6,6 +6,7 @@
     align-items: center;
     padding: 1rem;
     margin-bottom: 2rem;
+    min-height: 10vh;
 }
 
 #navbar h2 {
@@ -32,14 +33,14 @@
     color: white;
     cursor: pointer;
     font-size: medium;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     position: relative;
 }
 
 .linkt {
     /* width: 100%; */
     /* height: 300px; */
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .link:hover {
@@ -78,4 +79,85 @@
     background-color: rgb(231, 231, 231);
     height: 50px;
     width: 2px;
+}
+
+#bars {
+    display: none;
+}
+
+#balls {
+    display: none;
+}
+
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    #navbar {
+        justify-content: center;
+    }
+
+    #navbar h2 {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    #navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    #navbar ul {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 1rem; */
+        /* gap: 1rem; */
+    }
+
+    #sep {
+        display: none;
+    }
+
+    #navbar h2 {
+        display: none;
+    }
+
+    #bars {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        z-index: 99;
+    }
+
+    #activities-dropdown {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .link {
+        padding: 0;
+        margin: 0;
+        /* background-color: aqua; */
+        font-size: 3ch;
+        font-weight: 500;
+    }
+
+    li {
+        padding: 0;
+        margin: 0;
+        /* font-size: larger; */
+    }
+
+    #balls {
+        display: block;
+        text-align: center;
+        gap: 10rem;
+    }
 }

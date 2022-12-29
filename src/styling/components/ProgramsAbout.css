@@ -81,3 +81,29 @@
 #programs-about .upenn-text-container {
     grid-column: 1;
 }
+
+@media (max-width: 1000px) {
+    #programs-about {
+        padding: 1rem;
+    }
+
+    #programs-about .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 0;
+    }
+
+    #programs-about .image-container > img {
+        width: 50%;
+        border-radius: 2px;
+        margin: auto;
+    }
+
+    #programs-about .image-container > p {
+        width: 50%;
+        margin: auto;
+        font-size: 1.25ch;
+
+    }
+}

@@ -11,6 +11,7 @@ function WorkAbout() {
           
           <div className="info">
             <h3>Tirgan - Unpaid Internship</h3>
+            <h4>August 2020 - Present</h4>
             <div className="grid tirgan-grid">
               <div className="image-container tirgan-image-container">
                 <img src={tirgan} alt="Tirgan Logo" />
@@ -28,6 +29,7 @@ function WorkAbout() {
 
           <div className="info">
             <h3>AAA Systems Enterprises - Unpaid Internship</h3>
+            <h4>October 2019 - Present</h4>
             <div className="grid aaa-grid">
               <div className="text-container aaa-text-container">
                 <h3>October 2019 - Present</h3>
@@ -47,6 +49,7 @@ function WorkAbout() {
 
           <div className="info">
             <h3>Full Bloom Learning Center - Unpaid Internship</h3>
+            <h4>December 2021 - Present</h4>
             <div className="grid fbloom-grid">
               <div className="image-container fbloom-image-container">
                 <img src={full_bloom} alt="Full Bloom Logo" />
@@ -67,6 +70,7 @@ function WorkAbout() {
 
           <div className="info">
             <h3>Walmart - Paid Work</h3>
+            <h4>July 2021 - September 2021</h4>
             <div className="grid walmart-grid">
               <div className="image-container walmart-image-container">
                 <img src={walmart} alt="Walmart Logo" />

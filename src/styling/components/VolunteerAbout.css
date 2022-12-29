@@ -11,6 +11,7 @@
 }
 
 #volunteer-about > #writing-section > .info > h3 {
+    text-align: center;
     display: flex;
     justify-content: center;
     background-color: rgb(239, 239, 239);
@@ -25,6 +26,10 @@
     grid-auto-flow: column;
     gap: 4rem;
     margin-bottom: 2rem;
+}
+
+#volunteer-about .tri-grid {
+    grid-template-columns: 1fr 2fr;
 }
 
 #volunteer-about .image-container {
@@ -75,4 +80,23 @@
 
 #volunteer-about .red-text-container {
     grid-column: 1;
+}
+
+@media (max-width: 1000px) {
+    #volunteer-about {
+        padding: 1rem;
+    }
+
+    #volunteer-about .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 0;
+    }
+
+    #volunteer-about .image-container > img {
+        width: 50%;
+        border-radius: 2px;
+        margin: auto;
+    }
 }

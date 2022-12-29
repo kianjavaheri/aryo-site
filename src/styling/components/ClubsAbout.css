@@ -57,6 +57,10 @@
     grid-column: 2;
 }
 
+#clubs-about .text-container > h3 {
+    text-align: center;
+}
+
 #clubs-about .deca-b-image-container {
     grid-column: 2;
 }
@@ -71,4 +75,29 @@
 
 #clubs-about .mec-text-container {
     grid-column: 1;
+}
+
+@media (max-width: 1000px) {
+    #clubs-about {
+        padding: 1rem;
+    }
+
+    #clubs-about .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 0;
+    }
+
+    #clubs-about .image-container > img {
+        width: 50%;
+        border-radius: 2px;
+        margin: auto;
+    }
+
+    #clubs-about .image-container > p {
+        width: 50%;
+        margin: auto;
+        font-size: 1.25ch;
+    }
 }
