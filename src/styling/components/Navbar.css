@@ -14,10 +14,6 @@
     margin-left: 3rem;
 }
 
-#navbar > .name {
-    color: white;
-}
-
 #navbar ul {
     display: flex;
     justify-content: center;
@@ -43,6 +39,7 @@
     height: 100%;
     padding: 1rem;
     text-align: center;
+    color: white;
 }
 
 .li-style:hover {

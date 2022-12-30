@@ -51,40 +51,40 @@ function Navbar() {
         }}/>
 
         <h2>
-          <Link to={"/"} className="name">Aryo Garakani</Link>
+          <Link to={"/"} style={{ color: '#FFF' }}>Aryo Garakani</Link>
         </h2>
         
         <ul id="list">
-          <li className="li-style"><Link className="link" to="/" onClick={untoggle}>Home</Link></li>
+          <li className="li-style"><Link to="/" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Home</Link></li>
 
-          <li className="li-style"><Link to="/programs" className="link" onClick={untoggle}>Programs</Link></li>
+          <li className="li-style"><Link to="/programs" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Programs</Link></li>
 
           <li id="activities-dropdown">
             <div id="dropdown-title">Activities</div>
             <div id="dropdown-content">
-              <Link className="dropdown-item" to="/clubs">Clubs & Comp.</Link>
-              <Link className="dropdown-item"to="/work">Work & Intern</Link>
-              <Link className="dropdown-item"to="/projects">Passion Project</Link>
-              <Link className="dropdown-item"to="/volunteering">Volunteer</Link>
+              <Link className="dropdown-item" style={{ color: '#FFF' }} to="/clubs">Clubs & Comp.</Link>
+              <Link className="dropdown-item" style={{ color: '#FFF' }} to="/work">Work & Intern</Link>
+              <Link className="dropdown-item" style={{ color: '#FFF' }} to="/projects">Passion Project</Link>
+              <Link className="dropdown-item" style={{ color: '#FFF' }} to="/volunteering">Volunteer</Link>
             </div>
           </li>
 
-          <li className="mobile-li"><Link to="/clubs" className="link" onClick={untoggle}>Clubs & Comp.</Link></li>
+          <li className="mobile-li"><Link to="/clubs" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Clubs & Comp.</Link></li>
 
-          <li className="mobile-li"><Link to="/work" className="link" onClick={untoggle}>Work & Intern</Link></li>
+          <li className="mobile-li"><Link to="/work" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Work & Intern</Link></li>
 
-          <li className="mobile-li"><Link to="/projects" className="link" onClick={untoggle}>Passion Project</Link></li>
+          <li className="mobile-li"><Link to="/projects" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Passion Project</Link></li>
 
-          <li className="mobile-li"><Link to="/volunteering" className="link" onClick={untoggle}>Volunteer</Link></li>
+          <li className="mobile-li"><Link to="/volunteering" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Volunteer</Link></li>
 
-          <li className="li-style"><Link to="/hobbies" className="link" onClick={untoggle}>Hobbies</Link></li>
+          <li className="li-style"><Link to="/hobbies" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Hobbies</Link></li>
           
-          <li className="li-style"><Link to="/resume" className="link" onClick={untoggle}>Resume</Link></li>
+          <li className="li-style"><Link to="/resume" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Resume</Link></li>
           
           <div id="sep"></div>
           
-          <li className="li-style"><a href="https://www.instagram.com/aryo_garakani/" target="_blank" rel="noopener noreferrer" className="link"><FontAwesomeIcon icon={faInstagram} /></a></li>
-          <li className="li-style"><a href="https://www.linkedin.com/in/aryo-garakani-a60511233/" target="_blank" rel="noopener noreferrer" className="link"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+          <li className="li-style"><a href="https://www.instagram.com/aryo_garakani/" target="_blank" rel="noopener noreferrer" style={{ color: '#FFF' }} className="link"><FontAwesomeIcon icon={faInstagram} /></a></li>
+          <li className="li-style"><a href="https://www.linkedin.com/in/aryo-garakani-a60511233/" target="_blank" rel="noopener noreferrer" style={{ color: '#FFF' }} className="link"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
         </ul>
     </div>
   )
