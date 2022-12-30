@@ -7,6 +7,7 @@
     padding: 1rem;
     margin-bottom: 2rem;
     min-height: 10vh;
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 #navbar h2 {
@@ -111,8 +112,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* margin: 1rem; */
-        /* gap: 1rem; */
     }
 
     #sep {

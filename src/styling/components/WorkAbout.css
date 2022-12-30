@@ -17,6 +17,7 @@
     width: 100%;
     border-radius: 5px;
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 #work-about > #writing-section > .info > h4 {
     text-align: center;
@@ -81,11 +82,23 @@
     text-align: center;
 }
 
-#work-about .text-container > a {
+#work-about .text-container > #weblink {
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     font-weight: bold;
-    color: blue;
+}
+
+#work-about .text-container > #weblink > a {
+    color: white;
+    background-color: rgb(107, 107, 255);
+    padding: 0.5rem;
+    border-radius: 3px;
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#work-about .text-container > #weblink > a:hover {
+    filter: brightness(0.9);
 }
 
 #work-about .text-container > p {
@@ -102,7 +115,7 @@
     grid-column: 1;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     #work-about {
         padding: 1rem;
     }

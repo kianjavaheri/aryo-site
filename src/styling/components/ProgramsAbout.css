@@ -82,7 +82,7 @@
     grid-column: 1;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     #programs-about {
         padding: 1rem;
     }
@@ -95,7 +95,7 @@
     }
 
     #programs-about .image-container > img {
-        width: 50%;
+        width: 90%;
         border-radius: 2px;
         margin: auto;
     }
