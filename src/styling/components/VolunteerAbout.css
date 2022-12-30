@@ -1,7 +1,3 @@
-#volunteer-about {
-    padding: 1rem 5rem 1rem 5rem;
-}
-
 #volunteer-about > #writing-section {
     display: flex;
     flex-direction: column;
@@ -67,6 +63,9 @@
 
 #volunteer-about .text-container {
     grid-column: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #volunteer-about .text-container > h3 {

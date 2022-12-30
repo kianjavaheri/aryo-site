@@ -1,7 +1,3 @@
-#work-about {
-    padding: 1rem 5rem 1rem 5rem;
-}
-
 #work-about > #writing-section {
     display: flex;
     flex-direction: column;
@@ -76,6 +72,9 @@
 
 #work-about .text-container {
     grid-column: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #work-about .text-container > h3 {

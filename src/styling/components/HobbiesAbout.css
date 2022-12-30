@@ -1,7 +1,3 @@
-#hobbies-about {
-    padding: 1rem 5rem 1rem 5rem;
-}
-
 #hobbies-about > #writing-section {
     display: flex;
     flex-direction: column;
@@ -19,35 +15,95 @@
     margin-bottom: 1rem;
 }
 
-/* #hobbies-about > #writing-section > .info > img {
+#hobbies-about .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+#hobbies-about .lacrosse-grid {
+    grid-template-columns: 2fr 1fr;
+}
+
+#hobbies-about .fantasy-grid {
+    grid-template-columns: 1fr 2fr;
+}
+
+#hobbies-about .image-container {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hobbies-about .image-container > img {
     width: 100%;
-    height: 40vh;
-    object-fit: cover;
-} */
-
-
-#lacrosse {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("./../../util/imgs/lacrosse.jpg");
     border-radius: 2px;
-    position: relative;
-    height: 100vh;
-} 
-
-
-#lacrosse > p {
-    color: white;
-    padding: 1rem;
-    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
-    position: absolute;
-    bottom: 0;
-    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
-#lacrosse:hover p {
-    opacity: 0;
+#hobbies-about .image-container > p {
+    text-align: center;
+    color: gray;
+    font-size: small;
+    line-height: 1.5;
 }
 
-#lacrosse:hover {
-    background: url("./../../util/imgs/lacrosse.jpg");
+#hobbies-about .text-container {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hobbies-about .text-container > p {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#hobbies-about .garden-image-container {
+    grid-column: 2;
+}
+
+#hobbies-about .fantasy-image-container {
+    grid-column: 2;
+}
+
+#hobbies-about .garden-text-container {
+    grid-column: 1;
+}
+
+#hobbies-about .fantasy-text-container {
+    grid-column: 1;
+}
+
+
+@media (max-width: 1200px) {
+    #hobbies-about {
+        padding: 1rem;
+    }
+
+    #hobbies-about .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 0;
+    }
+
+    #hobbies-about .image-container > img {
+        width: 90%;
+        border-radius: 2px;
+        margin: auto;
+    }
+
+    #hobbies-about .image-container > p {
+        width: 50%;
+        margin: auto;
+        font-size: 1.25ch;
+
+    }
 }
 

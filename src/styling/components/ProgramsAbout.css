@@ -1,7 +1,3 @@
-#programs-about {
-    padding: 1rem 5rem 1rem 5rem;
-}
-
 #programs-about > #writing-section {
     display: flex;
     flex-direction: column;
@@ -54,6 +50,9 @@
 
 #programs-about .text-container {
     grid-column: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #programs-about .text-container > h3 {
