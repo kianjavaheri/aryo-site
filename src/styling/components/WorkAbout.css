@@ -53,6 +53,19 @@
     margin-bottom: 1rem;
 }
 
+#work-about .tirgan-image-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#work-about .tirgan-image-container > img {
+    width: 50%;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+
 #work-about .image-container > p {
     text-align: center;
     color: gray;

@@ -24,7 +24,8 @@ function toggleNav(toggled:boolean) {
   }
 }
 
-function untoggle() {
+function untoggle(mobile:boolean) {
+  if(mobile) {
     const ul = (document.getElementById("list") as any)
     const nav = (document.getElementById("navbar") as any)
     const body = (document.body as any)
@@ -33,6 +34,7 @@ function untoggle() {
     nav.style.height = "fit-content";
     body.style.maxHeight = "fit-content";
     body.style.overflowY = "visible";
+  }
 }
 
 function Navbar() {
@@ -51,8 +53,8 @@ function Navbar() {
         </h2>
         
         <ul id="list">
-          <li className="link"><Link className="linkt" to="/" onClick={untoggle}>Home</Link></li>
-          <li><Link to="/programs" className="link" onClick={untoggle}>Programs</Link></li>
+          <li className="link"><Link className="linkt" to="/" onClick={() => {untoggle(open)}}>Home</Link></li>
+          <li><Link to="/programs" className="link" onClick={() => {untoggle(open)}}>Programs</Link></li>
 
           <li id="activities-dropdown" className="link">
               {/* <div className="link">Activities</div> */}
@@ -66,14 +68,14 @@ function Navbar() {
           </li>
 
           <div id="balls">
-          <li><Link to="/clubs" className="link" onClick={untoggle}>Clubs & Comp.</Link></li>
-          <li><Link to="/work" className="link" onClick={untoggle}>Work & Intern</Link></li>
-          <li><Link to="/projects" className="link" onClick={untoggle}>Passion Project</Link></li>
-          <li><Link to="/volunteering" className="link" onClick={untoggle}>Volunteer</Link></li>
+          <li><Link to="/clubs" className="link" onClick={() => {untoggle(open)}}>Clubs & Comp.</Link></li>
+          <li><Link to="/work" className="link" onClick={() => {untoggle(open)}}>Work & Intern</Link></li>
+          <li><Link to="/projects" className="link" onClick={() => {untoggle(open)}}>Passion Project</Link></li>
+          <li><Link to="/volunteering" className="link" onClick={() => {untoggle(open)}}>Volunteer</Link></li>
           </div>
 
-          <li><Link to="/hobbies" className="link" onClick={untoggle}>Hobbies</Link></li>
-          <li><Link to="/resume" className="link" onClick={untoggle}>Resume</Link></li>
+          <li><Link to="/hobbies" className="link" onClick={() => {untoggle(open)}}>Hobbies</Link></li>
+          <li><Link to="/resume" className="link" onClick={() => {untoggle(open)}}>Resume</Link></li>
           <div id="sep"></div>
           <li><a href="https://www.instagram.com/aryo_garakani/" target="_blank" rel="noopener noreferrer" className="link"><FontAwesomeIcon icon={faInstagram} /></a></li>
           <li><a href="https://www.linkedin.com/in/aryo-garakani-a60511233/" target="_blank" rel="noopener noreferrer" className="link"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
