@@ -28,7 +28,7 @@ function HobbiesAbout() {
         <hr className="divider"/>
 
         <div className="info">
-          <h3>Lacrosse</h3>
+          <h3>Gardening</h3>
           <div className="grid garden-grid">
             <div className="image-container garden-image-container">
               <img src={garden} alt="Aryo Garden" />

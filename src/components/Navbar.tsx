@@ -40,13 +40,13 @@ function untoggle() {
 }
 
 function Navbar() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   return (
     <div id="navbar">
 
-        <FontAwesomeIcon id="bars" icon={faBars} size="2x" onClick={() => {
-          setOpen(open => !open)
+        <FontAwesomeIcon id="bars" icon={faBars} size="2x" onClick={() => {   
+          setOpen(open => !open)    
           toggleNav(open)
         }}/>
 
@@ -55,9 +55,11 @@ function Navbar() {
         </h2>
         
         <ul id="list">
-          <li className="li-style"><Link to="/" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Home</Link></li>
+          <li className="li-style"><Link to="/" style={{ color: '#FFF' }} className="link" onClick={() => {untoggle()
+          setOpen(open => !open)   }}>Home</Link></li>
 
-          <li className="li-style"><Link to="/programs" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Programs</Link></li>
+          <li className="li-style"><Link to="/programs" style={{ color: '#FFF' }} className="link" onClick={() => {untoggle()
+          setOpen(open => !open)   }}>Programs</Link></li>
 
           <li id="activities-dropdown">
             <div id="dropdown-title">Activities</div>
@@ -69,17 +71,23 @@ function Navbar() {
             </div>
           </li>
 
-          <li className="mobile-li"><Link to="/clubs" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Clubs & Comp.</Link></li>
+          <li className="mobile-li"><Link to="/clubs" style={{ color: '#FFF' }} className="link" onClick={() => {untoggle()
+          setOpen(open => !open)   }}>Clubs & Comp.</Link></li>
 
-          <li className="mobile-li"><Link to="/work" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Work & Intern</Link></li>
+          <li className="mobile-li"><Link to="/work" style={{ color: '#FFF' }} className="link" onClick={() => {untoggle()
+          setOpen(open => !open)   }}>Work & Intern</Link></li>
 
-          <li className="mobile-li"><Link to="/projects" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Passion Project</Link></li>
+          <li className="mobile-li"><Link to="/projects" style={{ color: '#FFF' }} className="link" onClick={() => {untoggle()
+          setOpen(open => !open)   }}>Passion Project</Link></li>
 
-          <li className="mobile-li"><Link to="/volunteering" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Volunteer</Link></li>
+          <li className="mobile-li"><Link to="/volunteering" style={{ color: '#FFF' }} className="link" onClick={() => {untoggle()
+          setOpen(open => !open)   }}>Volunteer</Link></li>
 
-          <li className="li-style"><Link to="/hobbies" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Hobbies</Link></li>
+          <li className="li-style"><Link to="/hobbies" style={{ color: '#FFF' }} className="link" onClick={() => {untoggle()
+          setOpen(open => !open)   }}>Hobbies</Link></li>
           
-          <li className="li-style"><Link to="/resume" style={{ color: '#FFF' }} className="link" onClick={untoggle}>Resume</Link></li>
+          <li className="li-style"><Link to="/resume" style={{ color: '#FFF' }} className="link" onClick={() => {untoggle()
+          setOpen(open => !open)   }}>Resume</Link></li>
           
           <div id="sep"></div>
           
